@@ -47,6 +47,7 @@ Points should be included in the format `(month, probability)` as in the example
 ```python
 # Create empty instance with defaults
 loan = unit_loan()
+loan.product_name = 'Unsecured Personal Loan'
 loan.rate = 0.0409
 loan.term = 27
 loan.ticket_size = 11600
@@ -55,6 +56,7 @@ loan.ever30 = 0.45
 loan.prepay_start = 0.005
 loan.prepay_end = 0.01
 loan.refi_start = 0.04
+loan.refi_quality_loss = 0.60
 loan.refi_end = 0.005
 # Assume we know that on the 17th month, the prob of default = 43% 
 loan.pd_table.append((17, 0.43))
