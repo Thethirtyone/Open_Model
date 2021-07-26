@@ -4,13 +4,13 @@
 
 The idea is to build a company model by using blocks. The model starts with a loan, then consolidates into clients, channels and finally, the company view. 
 
-. Loan = smallest modeled unit. 
+. [Loan Model](#Loan): smallest modeled unit. 
 
-. Clients = group of loans (LTV of client calculated)
+. Client Model: group of loans (LTV of client calculated)
 
-. Channels = group of clients (CAC, UW + Fee Revenues calculations)
+. Channel Model: group of clients (CAC, UW + Fee Revenues calculations)
 
-. Company = group of channels (Cost of Capital and Securitization calculations + Operational expenses)
+. Company Model: group of channels (Cost of Capital and Securitization calculations + Operational expenses)
 
 ## Loan 
 
